@@ -1,6 +1,7 @@
 # Meal Planner
 
 Demo: https://meal-planner-roan.vercel.app 
+
 Backend part is here: https://github.com/AnnaSolovykh/meals-planner-backend
 
 This is a project build with React, Node.js and MongoDB.
