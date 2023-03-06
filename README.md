@@ -1,6 +1,6 @@
 # Meal Planner
 
-Demo: https://meal-planner-roan.vercel.app 
+Demo: https://meal-planner-roan.vercel.app/
 
 Backend part is here: https://github.com/AnnaSolovykh/meals-planner-backend
 
