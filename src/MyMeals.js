@@ -6,7 +6,7 @@ export const MyMeals = ( {text, updatingInInput, deleteMeal} ) => {
             <p>{text}</p>    
             <AiFillEdit  size={'1.5em'} onClick={updatingInInput}></AiFillEdit>
             &nbsp;&nbsp;
-            <AiFillDelete onClick={deleteMeal}></AiFillDelete>
+            <AiFillDelete size={'1.5em'}  onClick={deleteMeal}></AiFillDelete>
         </div>
     )
 }
