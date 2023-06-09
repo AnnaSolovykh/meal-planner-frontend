@@ -12,8 +12,7 @@ body {
   background-repeat: no-repeat;
   backdrop-filter: blur(4px);
   height: 100vh;
-  display: grid;
-  place-items: center;
+  background-color:  #313133;
 }
   
 h1 {
@@ -26,8 +25,9 @@ h1 {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  height: 90vh;
 }
 
 input {
@@ -42,12 +42,14 @@ input {
 }
   
 button {
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: #024d3d;
   color: white;
-  font-size: 20px;
+  font-size: 1.9em;
   cursor: pointer;
   width: 30rem;
+  text-transform: uppercase;
+  font-family: 'Gloria Hallelujah', cursive;
 }
   
 p {
@@ -55,7 +57,7 @@ p {
   margin-top: 20px;
   font-family: 'Gloria Hallelujah', cursive;
   width: 15rem;
-  font-size: 20px;
+  font-size: 1.5rem;
   padding: 0.5rem 1rem;
 
 }
@@ -63,15 +65,12 @@ p {
 @media all and (max-width: 850px) {
   body {
     background-position: right;
+    backdrop-filter: blur(6px);
   }
 }
 
 
 @media all and (max-width: 500px) {
-  body {
-    background-position: top;
-  }
-
   h1 {
     font-size: 4rem;
   }
