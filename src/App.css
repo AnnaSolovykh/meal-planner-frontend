@@ -37,7 +37,6 @@ input {
   font-size: 20px;
   background: #313133;
   padding: 1rem;
-  font-family: 'Gloria Hallelujah', cursive;
   margin-bottom: 20px;
 }
   
@@ -49,7 +48,6 @@ button {
   cursor: pointer;
   width: 30rem;
   text-transform: uppercase;
-  font-family: 'Gloria Hallelujah', cursive;
 }
   
 p {
