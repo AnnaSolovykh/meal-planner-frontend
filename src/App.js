@@ -22,7 +22,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="container">
       <h1>Meal Plan</h1>
       <input 
       type="text"
