@@ -10,7 +10,6 @@ const getAllMeals = (setMeal) => {
 const addMeal = (title, setTitle, setMeal) => {
     axios.post("https://meals-planner.onrender.com/saveMeals", {title}) //because there is saveMeals in router
     .then ((data) => {
-        console.log(data)
         setTitle("")
         getAllMeals(setMeal)
     })
