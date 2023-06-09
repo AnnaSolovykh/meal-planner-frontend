@@ -21,31 +21,39 @@ function App() {
     setMealId(_id)
   }
 
-  return (
-    <div className="container">
-      <h1>Meal Plan</h1>
-      <input 
-      type="text"
-      placeholder="Add a meal"
-      value={title}
-      onChange={(e) => setTitle (e.target.value)}//чтобы  печаталось, setTitle - потому что меняем состояние
-      />
+    return (
+    <>
+      <div className="container">
+        <h1>Meal Plan</h1>
+        <input 
+        type="text"
+        placeholder="Add a meal"
+        value={title}
+        onChange={(e) => setTitle (e.target.value)}//чтобы  печаталось, setTitle - потому что меняем состояние
+        />
 
-      <button 
-      disabled={!title}
-      onClick=
-        { editing ? () => editMeal(mealId, title, setTitle, setMeal, setEditing) : 
-        () => addMeal(title, setTitle, setMeal)}>
-        {editing ? "Edit" : "Add"}
-      </button>
+        <button 
+        disabled={!title}
+        onClick=
+          { editing ? 
+            () => editMeal(mealId, title, setTitle, setMeal, setEditing) : 
+            () => addMeal(title, setTitle, setMeal)}>
+          {editing ? "Edit" : "Add"}
+        </button>
+      </div>
 
-      {myMeal.map((meal) => 
-      <MyMeals key={meal._id} text={meal.title} 
-      updatingInInput={()=> updatingInInput(meal._id, meal.title)}
-      deleteMeal={ () => deleteMeal(meal._id, setMeal) } 
-      //каждое блюда просматриваем через app.js и удаляем по id
-      />)}
-    </div>
+      <div className="container-meals">
+        {myMeal.map((meal) => 
+          <MyMeals 
+            key={meal._id} 
+            text={meal.title} 
+            updatingInInput={()=> updatingInInput(meal._id, meal.title)}
+            deleteMeal={ () => deleteMeal(meal._id, setMeal) } 
+          //каждое блюда просматриваем через app.js и удаляем по id
+          />
+        )}
+      </div>
+    </>
   );
 }
 
