@@ -1,6 +1,6 @@
 # Meal Planner
 
-Demo: https://meal-planner-roan.vercel.app/ - loading may take a while as it is connected to Frankfurt for free :)
+Demo: https://meal-planner-roan.vercel.app/  (the access is restricted for security measures)
 
 Backend part is here: https://github.com/AnnaSolovykh/meals-planner-backend
 
