@@ -7,6 +7,4 @@ Backend part is here: https://github.com/AnnaSolovykh/meals-planner-backend
 This is a project build with React, Node.js and MongoDB.
 You can add a meal, than edit it in the input field or delete it.
 
-<img width="1540" alt="Снимок экрана 2023-03-04 в 18 10 12" src="https://user-images.githubusercontent.com/114008959/222913747-d174ba15-fa27-4457-823e-88e7d33a6b24.png">
-
-
+<img width="1687" alt="Screen Shot 2023-06-13 at 13 19 35" src="https://github.com/AnnaSolovykh/meal-planner-frontend/assets/114008959/c7ed8502-de05-4d74-968e-965a4109eeff">
